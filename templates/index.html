@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Plot Location</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    body {
+      background-image: url(aannie-spratt-AFB6S2kibuk-unsplash.jpg);
+      background-size: cover;
+     
+    }
+    form {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      background-color: rgba(255,255,255,0.7);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000000;
+      margin-top: 50px;
+      font-family: 'Poppins', sans-serif;
+    }
+    h1 {
+      margin-bottom: 50px;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+    }
+    input[type="file"] {
+      margin-bottom: 20px;
+      padding: 30px;
+      border: none;
+      align-self: center;
+      text-align: center;
+      font-size: 16px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      font-family: 'Poppins', sans-serif;
+    }
+    input[type="submit"] {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  <body background-image: url(annie-spratt-AFB6S2kibuk-unsplash.jpg)>
+    <h1>Upload an Image</h1>
+    <form action="/plot_location" method="post" enctype="multipart/form-data">
+      <input type="file" name="image">
+      <input type="submit" value="Plot Location">
+      </form>
+     
+      </body>
+      </html>
+
+     
