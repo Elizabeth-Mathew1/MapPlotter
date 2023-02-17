@@ -38,7 +38,7 @@ pip install flask jinja2 exifread
 ```
 3)Run the application:
 ```
-export FLASK_APP=plot_location.py
+export FLASK_APP=exif_map_plotter.py
 flask run
 ```
 Visit the application in your web browser at ```http://localhost:5000/```.
